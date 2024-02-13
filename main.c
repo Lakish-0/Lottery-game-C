@@ -21,10 +21,10 @@ int main()
     if(guessLimit==0 && secretNumber !=guess){
         printf("You Loose!!.Better Luck Next Time.");
     }else if (guessLimit==2){
-        printf("Wow you are genius.You won lottery in first try.Congratulations....\nLottery Amount was $1 billion");
+        printf("Wow you are genius.You won lottery in first try.Congratulations....\nLottery Amount was 1 billion Dollors");
     }
      else if(guess==secretNumber){
-        printf("You won 1 billions $...");
+        printf("You won 1 billions Dollors...");
     }
 
     return 0;
