@@ -1,3 +1,4 @@
-#simple and fun
+#Simple and fun
 #C language
-#beginner friendly code
+#Beginner friendly code
+#Good Luck
