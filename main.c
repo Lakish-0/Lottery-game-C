@@ -7,6 +7,7 @@ int main()
     int secretNumber = 7;
     int guess;
     int guessLimit = 3;
+    //This is for backgroundcolor and text color
     system("color 70");
 
     printf("Hello this is lottery game.\nYou have 3 tries to win lottery.\nGood Luck!\n");
@@ -22,10 +23,8 @@ int main()
         printf("Wow you are genius.You won lottery in first try.Congratulations....\nLottery Amount was $1 billion");
     }
      else if(guess==secretNumber){
-        printf("You won 1 billions $$...");
+        printf("You won 1 billions $...");
     }
-
-
 
     return 0;
 }
