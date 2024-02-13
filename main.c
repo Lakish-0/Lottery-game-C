@@ -17,6 +17,7 @@ int main()
         guessLimit--;
 
     }
+    //Logic
     if(guessLimit==0 && secretNumber !=guess){
         printf("You Loose!!.Better Luck Next Time.");
     }else if (guessLimit==2){
